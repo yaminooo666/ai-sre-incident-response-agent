@@ -1,0 +1,36 @@
+INCIDENT_STATUS_PENDING_ANALYSIS = "pending_analysis"
+INCIDENT_STATUS_PLAN_GENERATED = "plan_generated"
+INCIDENT_STATUS_EXECUTING = "executing"
+INCIDENT_STATUS_RESOLVED = "resolved"
+INCIDENT_STATUS_MANUAL_FOLLOWUP = "manual_followup"
+INCIDENT_STATUS_EXECUTION_FAILED = "execution_failed"
+INCIDENT_STATUS_VERIFYING = "verifying"
+
+PLAN_STATUS_GENERATED = "generated"
+PLAN_STATUS_SUPERSEDED = "superseded"
+
+STEP_STATUS_PENDING = "pending"
+STEP_STATUS_WAITING_APPROVAL = "waiting_approval"
+STEP_STATUS_APPROVED = "approved"
+STEP_STATUS_REJECTED = "rejected"
+STEP_STATUS_EXECUTED = "executed"
+STEP_STATUS_FAILED = "failed"
+
+ACTION_QUERY_LOGS = "query_logs"
+ACTION_CHECK_METRICS = "check_metrics"
+ACTION_RESTART_SERVICE = "restart_service"
+ACTION_NOTIFY_OWNER = "notify_owner"
+
+RISK_LOW = "low"
+RISK_MEDIUM = "medium"
+RISK_HIGH = "high"
+
+ACTOR_USER = "user"
+ACTOR_AGENT = "agent"
+ACTOR_APPROVER = "approver"
+ACTOR_SYSTEM = "system"
+
+PLAN_SOURCE_AI = "ai"
+PLAN_SOURCE_FALLBACK = "fallback"
+
+AUDIT_ACTION_PLAN_REVISED = "plan_revised"
