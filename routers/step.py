@@ -30,11 +30,3 @@ def approve_step(
     return step
 
 
-
-@router.post("/{step_id}/execute",response_model=schemas.PlanStepOut)
-def execute_step(
-    step_id:int,
-    db:Session=Depends(get_db)
-):
-    step=step_service.execute_step(db,step_id)
-    return step
